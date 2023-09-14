@@ -29,7 +29,7 @@ const Skills = () => {
     {
       id: 5,
       title: "React Native",
-      img: "./Images/SkillsImages/ReactNative.png",
+      img: "./logo512.png",
       star: "./Images/SkillsImages/Vector_small_star.png",
     },
     {

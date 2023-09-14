@@ -81,11 +81,9 @@ const Projects = () => {
                   <h3>{project.name}</h3>
                   <p>{project.about}</p>
                   <div className="Tech">
-                    <div>
-                      {project.tech.map((technologies) => {
-                        return <span key={technologies}>{technologies}</span>;
-                      })}
-                    </div>
+                    {project.tech.map((technologies) => {
+                      return <span key={technologies}>{technologies}</span>;
+                    })}
                   </div>
                   <div>
                     <a href={project.liveWebsite} target="_blank">
@@ -107,7 +105,7 @@ const Projects = () => {
             target="_blank"
           >
             Click Here
-          </a>
+          </a>{" "}
           if you want to see them &#128515;
         </p>
       </div>

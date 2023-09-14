@@ -71,8 +71,8 @@ const Footer = () => {
         <div className="footer_links">
           <h4>USEFUL LINKS</h4>
           <button>
-            Aleksandar Conic CV.pdf
-            <a href="PDF/Grey_Clean_CV_Resume_Photo.pdf">Resume</a>
+            Aleksandar Conic CV.pdf{" "}
+            {/* <a href="PDF/Grey_Clean_CV_Resume_Photo.pdf">Resume</a> */}
           </button>
         </div>
       </div>
