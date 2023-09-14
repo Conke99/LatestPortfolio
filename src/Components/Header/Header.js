@@ -44,7 +44,7 @@ const Header = () => {
         <li onClick={scrollToAbout}>About Me</li>
       </ul>
       <button>
-        <a href="PDF/Grey_Clean_CV_Resume_Photo.pdf">Download CV</a>
+        <a href="PDF/Aleksandar_Conic_CV.pdf">Download CV</a>
       </button>
       <img
         onClick={(e) => setIsActive(!isActive)}

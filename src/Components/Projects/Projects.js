@@ -68,9 +68,8 @@ const Projects = () => {
       <div className="projects_contect">
         <h2>These are my Projects.</h2>
         <p>
-          These are some of the Fictional projects that I worked on. I have
-          created some projects that help me understand more of the technology
-          that I use.
+          These are a selection of the fictional projects I have undertaken to
+          enhance my comprehension of the technologies I employ
         </p>
         <div className="project_container">
           {projects.map((project) => {

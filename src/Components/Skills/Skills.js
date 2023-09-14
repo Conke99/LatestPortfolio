@@ -62,6 +62,18 @@ const Skills = () => {
       img: "./Images/SkillsImages/Figma.webp",
       star: "./Images/SkillsImages/Vector_small_star.png",
     },
+    {
+      id: 11,
+      title: "Node JS",
+      img: "./Images/SkillsImages/NodeJS.png",
+      star: "./Images/SkillsImages/Vector_small_star.png",
+    },
+    {
+      id: 12,
+      title: "Next JS",
+      img: "./Images/SkillsImages/Next.js.png",
+      star: "./Images/SkillsImages/Vector_small_star.png",
+    },
   ];
 
   const checkSkillValue = (skill) => {
@@ -82,9 +94,10 @@ const Skills = () => {
       <div className="Skills_contect">
         <h2>Take a look at my Skills</h2>
         <p>
-          These are my skills and this contains all the technologies and
-          programming languages that I have learnt until now. I am constantly
-          learning, therefore I may update this section more often.
+          Here's a comprehensive list of my skills, encompassing a wide array of
+          technologies and programming languages I've mastered up to this point.
+          My commitment to continuous learning means that this section may
+          undergo regular updates to reflect my evolving expertise.
         </p>
         <div className="skill_container">
           {skills.map((skill) => (

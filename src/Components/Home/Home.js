@@ -6,12 +6,14 @@ const Home = () => {
       <div className="home_contect">
         <div className="right_side">
           <h3>
-            Hello, I am <span>Aleksandar Conic</span>
+            Hello, I am <span>Aleksandar Conić</span>
           </h3>
           <h1>Fullstack Developer</h1>
           <p>
-            I am a Self-taught Fullstack Developer from Serbia. I like to work
-            on exciting projects on the Fullstack and Design them.
+            I am a self-taught Fullstack Developer hailing from Serbia. My
+            passion lies in crafting captivating projects that seamlessly
+            integrate both frontend and backend development, allowing me to also
+            explore the world of design.
           </p>
         </div>
         <div className="left_side">

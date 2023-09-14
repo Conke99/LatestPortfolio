@@ -37,8 +37,8 @@ const Footer = () => {
     <div className="footer">
       <div className="footer_contect">
         <div className="footer_about">
-          <h3>Aleksandar Conic</h3>
-          <h4>Frontend Developer</h4>
+          <h3>Aleksandar Conić</h3>
+          <h4>Fullstack Developer</h4>
           <button>Contact Me</button>
         </div>
         <div className="footer_contact">
@@ -71,8 +71,7 @@ const Footer = () => {
         <div className="footer_links">
           <h4>USEFUL LINKS</h4>
           <button>
-            Aleksandar Conic CV.pdf{" "}
-            {/* <a href="PDF/Grey_Clean_CV_Resume_Photo.pdf">Resume</a> */}
+            <a href="PDF/Aleksandar_Conic_CV.pdf">Aleksandar Conić CV.pdf</a>
           </button>
         </div>
       </div>

@@ -43,11 +43,9 @@
         align-items: center;
         margin: 10px;
         border-radius: 8px;
-        // width: 350px;
-        // height: 200px;
         width: 20%;
         height: 25%;
-        background-color: #fff;
+        background-color: #061671;
         box-shadow: 0 0 10px #cccccc;
         -webkit-box-shadow: 0 0 10px #cccccc;
         .stars {
@@ -64,6 +62,7 @@
         li {
           font-size: 22px;
           font-weight: 600;
+          color: #fff;
         }
 
         img {
@@ -72,14 +71,14 @@
         }
       }
       .unique_skill:hover {
-        animation: glow 1s;
+        animation: skillGlow 1s;
         -webkit-box-shadow: 0 0 20px rgb(0, 0, 0);
         box-shadow: 0 0 20px rgb(0, 0, 0);
-        background-color: #061671;
+        background-color: #fff;
         li {
           font-size: 22px;
           font-weight: 600;
-          color: #fff;
+          color: #000;
         }
         li:after {
           content: "";
@@ -96,12 +95,12 @@
   }
 }
 
-@keyframes glow {
+@keyframes skillGlow {
   0% {
-    background-color: #fff;
+    background-color: #061671;
   }
   100% {
-    background-color: #061671;
+    background-color: #fff;
   }
 }
 
