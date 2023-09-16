@@ -108,7 +108,7 @@
 
 @media only screen and (max-width: 616px) {
   .home {
-    height: 140vh;
+    height: 95vh;
     .home_contect {
       display: flex;
       flex-direction: column-reverse;
@@ -124,6 +124,11 @@
         }
         h1 {
           font-size: 37px;
+        }
+        p {
+          width: 100%;
+          padding: 5px;
+          font-size: 16px;
         }
       }
       .left_side {

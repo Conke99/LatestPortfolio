@@ -130,7 +130,7 @@
           color: #000;
         }
         div a .Website {
-          width: 148px;
+          // width: 148px;
           border: 2px solid #fff;
         }
       }
@@ -193,7 +193,11 @@
 
 @media only screen and (max-width: 1036px) {
   .projects {
-    height: 200vh;
+    height: 160vh;
+    .project_container .project .about_project .Tech span {
+      font-size: 8px;
+      height: 19px;
+    }
   }
 }
 
@@ -217,6 +221,10 @@
                   font-size: 12px;
                 }
               }
+            }
+            div a .Website {
+              font-size: 8px;
+              border: 1px solid #fff;
             }
             div {
               a {
@@ -251,6 +259,35 @@
                   font-size: 10px;
                 }
               }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 577px) {
+  .projects {
+    height: 280vh;
+    .projects_contect {
+      h2 {
+        text-align: center;
+      }
+      .project_container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .project {
+          margin: 0;
+          margin-right: 20px;
+          .about_project {
+            p {
+              font-size: 8px;
+            }
+            .Tech span {
+              font-size: 8px;
+              height: 19px;
             }
           }
         }

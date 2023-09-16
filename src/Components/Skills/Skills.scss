@@ -45,7 +45,7 @@
         border-radius: 8px;
         width: 20%;
         height: 25%;
-        background-color: #061671;
+        background-color: #fff;
         box-shadow: 0 0 10px #cccccc;
         -webkit-box-shadow: 0 0 10px #cccccc;
         .stars {
@@ -62,7 +62,7 @@
         li {
           font-size: 22px;
           font-weight: 600;
-          color: #fff;
+          color: #000;
         }
 
         img {
@@ -74,16 +74,16 @@
         animation: skillGlow 1s;
         -webkit-box-shadow: 0 0 20px rgb(0, 0, 0);
         box-shadow: 0 0 20px rgb(0, 0, 0);
-        background-color: #fff;
+        background-color: #061671;
         li {
           font-size: 22px;
           font-weight: 600;
-          color: #000;
+          color: #fff;
         }
         li:after {
           content: "";
           display: block;
-          border-top: 2px solid black;
+          border-top: 2px solid #fff;
           width: 0;
           transition: width 0.3s;
         }
@@ -97,10 +97,10 @@
 
 @keyframes skillGlow {
   0% {
-    background-color: #061671;
+    background-color: #fff;
   }
   100% {
-    background-color: #fff;
+    background-color: #061671;
   }
 }
 
@@ -117,7 +117,7 @@
         .unique_skill {
           .stars {
             .star {
-              width: 12%;
+              width: 10px;
             }
           }
           li {
@@ -134,17 +134,22 @@
 
 @media only screen and (max-width: 724px) {
   .Skills {
+    height: 70vh;
     .Skills_contect {
       .skill_container {
         .unique_skill {
           width: 18%;
-          height: 16%;
+          height: 90px;
           li {
-            font-size: 14px;
+            font-size: 12px;
           }
+
           img {
-            width: 25px;
+            width: 20%;
           }
+        }
+        .unique_skill:hover li {
+          font-size: 12px;
         }
       }
     }

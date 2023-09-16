@@ -167,3 +167,16 @@
     }
   }
 }
+
+@media only screen and (max-width: 577px) {
+  .footer .footer_links {
+    width: 140px;
+    h4 {
+      text-align: center;
+      font-size: 12px;
+    }
+    button {
+      font-size: 12px;
+    }
+  }
+}

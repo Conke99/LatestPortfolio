@@ -66,6 +66,9 @@
     }
     button {
       padding: 9px 13px;
+      box-shadow: 0 0 0px #fff;
+      -webkit-box-shadow: 0 0 0 #fff;
+      border: 1px solid #061671;
     }
   }
 }
@@ -86,7 +89,7 @@
       position: absolute;
       right: 0;
       top: 60px;
-      background-color: #ffffff;
+      background-color: whitesmoke;
       box-shadow: 0 8px 4px -2px #333333;
       .MobileChoices {
         display: flex;
