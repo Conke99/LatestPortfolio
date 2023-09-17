@@ -15,12 +15,11 @@ const Projects = () => {
     {
       id: 2,
       img: "./Images/ProjectImages/Project 2.png",
-      name: "Search Images",
+      name: "Happy Paws",
       about:
-        "This Project is a practice where I fetch API to render images what I typed in Input bar",
-      tech: ["React", "API", "BootStrap"],
-      liveWebsite: "https://naughty-yonath-fe2f5c.netlify.app/",
-      gitHub: "https://github.com/FoodNipple/pics",
+        "This is my personal project for people who give pets to someone to take care of them and for people who want to take care of pets",
+      tech: ["Next JS", "Auth", "Node JS", "PostgraSQL"],
+      liveWebsite: "https://happy-paws-landing-chi.vercel.app/",
     },
     {
       id: 3,
@@ -88,9 +87,11 @@ const Projects = () => {
                     <a href={project.liveWebsite} target="_blank">
                       <button className="Website">Live Website</button>
                     </a>
-                    <a href={project.gitHub} target="_blank">
-                      <button className="Code">Github code</button>
-                    </a>
+                    {project.gitHub ? (
+                      <a href={project.gitHub} target="_blank">
+                        <button className="Code">Github code</button>
+                      </a>
+                    ) : null}
                   </div>
                 </div>
               </div>
