@@ -24,12 +24,12 @@ const Projects = () => {
     {
       id: 3,
       img: "./Images/ProjectImages/Project 3.png",
-      name: "Youtube Clone",
+      name: "Car Hub",
       about:
-        "This Project is a practice where I wanted to create something like youtube,where you can search videos and render them on Webpage",
-      tech: ["React", "API", "BootStrap"],
-      liveWebsite: "https://practical-hawking-f22815.netlify.app/",
-      gitHub: "https://github.com/FoodNipple/videos",
+        "Using Next.js for server-side rendering, TypeScript for robust type checking, and Tailwind CSS for sleek and responsive designs, my project presents a visually appealing platform where users can explore and rent a wide range of stunning automobiles",
+      tech: ["Next JS", "TypeScript", "Tailwindcss", "API"],
+      liveWebsite: "https://cars-showcase-yeh5.vercel.app/",
+      gitHub: "https://github.com/Conke99/cars_showcase/tree/master",
     },
     {
       id: 4,
