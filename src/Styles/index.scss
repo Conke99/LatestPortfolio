@@ -12,6 +12,15 @@
   background-color: whitesmoke;
 }
 
+.fade-in-element {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.fade-in {
+  opacity: 1;
+}
+
 // Style Sections
 @import "../Components/Header/Header.scss";
 @import "../Components/Home/Home.scss";
