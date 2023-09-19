@@ -4,14 +4,14 @@ const Skills = () => {
   const skills = [
     {
       id: 1,
-      title: "HTML",
-      img: "./Images/SkillsImages/HTML.png",
+      title: "Next JS",
+      img: "./Images/SkillsImages/Next.js.png",
       star: "./Images/SkillsImages/Vector_small_star.png",
     },
     {
       id: 2,
-      title: "CSS",
-      img: "./Images/SkillsImages/CSS.png",
+      title: "TypeScript",
+      img: "./Images/SkillsImages/TypeScript.png",
       star: "./Images/SkillsImages/Vector_small_star.png",
     },
     {
@@ -34,8 +34,8 @@ const Skills = () => {
     },
     {
       id: 6,
-      title: "Redux",
-      img: "./Images/SkillsImages/Redux.png",
+      title: "Node JS",
+      img: "./Images/SkillsImages/NodeJS.png",
       star: "./Images/SkillsImages/Vector_small_star.png",
     },
     {
@@ -58,20 +58,20 @@ const Skills = () => {
     },
     {
       id: 10,
-      title: "Figma",
-      img: "./Images/SkillsImages/Figma.webp",
+      title: "Redux",
+      img: "./Images/SkillsImages/Redux.png",
       star: "./Images/SkillsImages/Vector_small_star.png",
     },
     {
       id: 11,
-      title: "Node JS",
-      img: "./Images/SkillsImages/NodeJS.png",
+      title: "TailWind CSS",
+      img: "./Images/SkillsImages/tailwind.png",
       star: "./Images/SkillsImages/Vector_small_star.png",
     },
     {
       id: 12,
-      title: "Next JS",
-      img: "./Images/SkillsImages/Next.js.png",
+      title: "HTML",
+      img: "./Images/SkillsImages/HTML.png",
       star: "./Images/SkillsImages/Vector_small_star.png",
     },
   ];
@@ -94,10 +94,9 @@ const Skills = () => {
       <div className="Skills_contect">
         <h2>Take a look at my Skills</h2>
         <p>
-          Here's a comprehensive list of my skills, encompassing a wide array of
-          technologies and programming languages I've mastered up to this point.
-          My commitment to continuous learning means that this section may
-          undergo regular updates to reflect my evolving expertise.
+          Here's a list of the skills I have, covering various technologies and
+          programming languages I've learned so far. I'm always learning, so
+          I'll update this section regularly to show my growing expertise.
         </p>
         <div className="skill_container">
           {skills.map((skill) => (

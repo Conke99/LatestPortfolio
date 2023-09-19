@@ -11,10 +11,11 @@ const Home = () => {
 
           <h1>Fullstack Developer</h1>
           <p>
-            I am a self-taught Fullstack Developer hailing from Serbia. My
-            passion lies in crafting captivating projects that seamlessly
-            integrate both frontend and backend development, allowing me to also
-            explore the world of design.
+            Hello 👋, welcome to my personal portfolio page. I am a Fullstack
+            Developer hailing from Serbia. My passion lies in crafting
+            captivating projects that seamlessly integrate both Frontend and
+            Backend development, allowing me to also explore the world of
+            design.
           </p>
         </div>
 
