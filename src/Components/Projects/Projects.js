@@ -7,7 +7,7 @@ const Projects = () => {
       img: "./Images/ProjectImages/Project 1.png",
       name: "Hub Pay",
       about:
-        "Hub-Pay, a React JS-based app, simplifies international money transfers. Custom animations and sliders enhance the user experience, while Sass styling ensures a polished and professional interface.",
+        "Hub-Pay, a React JS-powered software, makes international money transfers easier. Custom animations and sliders improve the user experience, and Sass styling results in an elegant and professional interface.",
       tech: ["React", "Sass", "JavaScript"],
       liveWebsite: "https://determined-brattain-a1f041.netlify.app/",
       gitHub: "https://github.com/Conke99/HubPay",
@@ -17,7 +17,7 @@ const Projects = () => {
       img: "./Images/ProjectImages/Project 2.png",
       name: "Happy Paws",
       about:
-        "This is my personal project for people who give pets to someone to take care of them and for people who want to take care of pets",
+        "This is my personal effort for people who give their pets to someone else to care for and for others who want to help to care for pets.",
       tech: ["Next JS", "Auth", "Node JS", "PostgraSQL"],
       liveWebsite: "https://happy-paws-landing-chi.vercel.app/",
     },
@@ -26,7 +26,7 @@ const Projects = () => {
       img: "./Images/ProjectImages/Project 3.png",
       name: "Car Hub",
       about:
-        "Using Next.js for server-side rendering, TypeScript for robust type checking, and Tailwind CSS for sleek and responsive designs, my project presents a visually appealing platform where users can explore and rent a wide range of stunning automobiles",
+        "My project delivers a visually appealing platform where users can browse and hire a wide choice of stunning automobiles using Next.js for server-side rendering, TypeScript for powerful type checking, and Tailwind CSS for sleek and responsive designs.",
       tech: ["Next JS", "TypeScript", "Tailwindcss", "API"],
       liveWebsite: "https://cars-showcase-yeh5.vercel.app/",
       gitHub: "https://github.com/Conke99/cars_showcase/tree/master",
@@ -67,8 +67,8 @@ const Projects = () => {
       <div className="projects_contect">
         <h2>These are my Projects.</h2>
         <p>
-          These are a selection of the fictional projects I have undertaken to
-          enhance my comprehension of the technologies I employ
+          These are some of the fictitious projects I've worked on to better
+          understand the technology I use.
         </p>
         <div className="project_container">
           {projects.map((project) => {

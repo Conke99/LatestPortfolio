@@ -94,9 +94,10 @@ const Skills = () => {
       <div className="Skills_contect">
         <h2>Take a look at my Skills</h2>
         <p>
-          Here's a list of the skills I have, covering various technologies and
-          programming languages I've learned so far. I'm always learning, so
-          I'll update this section regularly to show my growing expertise.
+          Here's a list of my skills, which encompass a variety of technologies
+          and programming languages that I've mastered so far. I'm continually
+          learning, therefore I'll keep this area updated to reflect my
+          expanding knowledge.
         </p>
         <div className="skill_container">
           {skills.map((skill) => (
