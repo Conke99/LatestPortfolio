@@ -5,12 +5,12 @@ const Projects = () => {
     {
       id: 1,
       img: "./Images/ProjectImages/Project 1.png",
-      name: "Great App",
+      name: "Hub Pay",
       about:
-        "This is a project that has eight sections with slider animation with responsive design",
-      tech: ["HTML", "CSS", "JavaScript"],
-      liveWebsite: "https://serene-jackson-38601d.netlify.app/",
-      gitHub: "https://github.com/FoodNipple/GreatApp",
+        "Hub-Pay, a React JS-based app, simplifies international money transfers. Custom animations and sliders enhance the user experience, while Sass styling ensures a polished and professional interface.",
+      tech: ["React", "Sass", "JavaScript"],
+      liveWebsite: "https://determined-brattain-a1f041.netlify.app/",
+      gitHub: "https://github.com/Conke99/HubPay",
     },
     {
       id: 2,
