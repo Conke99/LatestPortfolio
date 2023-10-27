@@ -34,11 +34,12 @@ const Projects = () => {
     {
       id: 4,
       img: "./Images/ProjectImages/Project 4.png",
-      name: "Menu",
-      about: "In this Project is where I practice State in React",
-      tech: ["React", "State", "CSS"],
-      liveWebsite: "https://elastic-easley-cc51c8.netlify.app/",
-      gitHub: "https://github.com/FoodNipple/Menu",
+      name: "Spotify Clone",
+      about:
+        "In this Next.js project, I built a Spotify clone with Supabase for the database, Stripe for integrating Spotify Premium subscriptions, and Tailwind for CSS, allowing users to listen to music while enjoying a premium experience.",
+      tech: ["Next JS", "TypeScript", "Stripe", "Supabase"],
+      liveWebsite: "https://spotify-clone-h7ewjk1mt-conke99.vercel.app/",
+      gitHub: "https://github.com/Conke99/spotify-clone",
     },
     {
       id: 5,
